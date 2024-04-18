@@ -1,0 +1,39 @@
+.BTW8mG_spectrum-Slider-labelContainer {
+  margin-bottom: 1rem;
+}
+
+
+
+
+.BTW8mG_spectrum-Slider-controls {
+  display: block;
+  width: 20px;
+  height: 5px;
+  margin-top: 1px;
+  background-color: #fff;
+  border: 1px solid #c4c8d8;
+  box-shadow: 0 2px 5px 0 #e3e5ec;
+  border-radius: 9999px;
+}
+
+.BTW8mG_spectrum-Slider-handle {
+  display: block !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: 1px !important;
+  background-color: #fff !important;
+  border: 1px solid #c4c8d8 !important;
+  box-shadow: 0 2px 5px 0 #e3e5ec !important;
+  border-radius: 9999px !important;
+}
+
+.BTW8mG_spectrum-Slider-track {
+  background-color: #dfe2ee !important;
+  height: 3px !important;
+  border-radius: 9999px !important;
+}
+
+.BTW8mG_spectrum-Slider-value {
+  min-width: 0 !important;
+}
+
