@@ -33,14 +33,17 @@ To run this demo project locally, follow these steps:
 
 2. Navigate to the project directory:
 
+    ```bash
     cd ndd-algolia-demo/
 
 3. Install dependencies:
 
+    ```bash
     npm install
 
 4. Start the development server
 
+    ```bash
     npm start
 
 5. Open http://localhost:3000 to view on your browser
