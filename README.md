@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Algolia Search UI Demo Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application serves as a demo project to showcase my understanding of Algolia's features. The project aims to demonstrate how Algolia can be integrated into a React application to provide efficient search and filtering functionalities in an eCommerce setting. I wanted to implement as many widgets and capabilities as possible available through Algolia InstantSearch to demonstrate understanding of Algolia technology from the perspective of a client or integrator.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+- **Search Implementation**: The project integrates Algolia's search functionality to enable users to search for products or other data with ease.
+- **Faceted Search**: Utilizing Algolia's faceted search capabilities, users can filter search results based on different attributes such as category, price range, ratings, hierarchial categories, and free shipping.
+- **Instant Search Results**: Search results are displayed instantly as users type in the search bar, providing a seamless and responsive search experience.
+- **Pagination**: The application efficiently handles large sets of search results by implementing pagination.
+- **Edit Pagination**: The application also allows you to control how many items should appear on a given page.
+- **List and Grid View**: Users can select between viewing query results in a list or grid format providing a customizable search experience.
+- **Sorting**: Users can sort search results based on relevance, popularity, and price ascending/descending, enhancing the user experience.
+- **Shopping Cart/Favorites**: This application mimics a real eCommerce website by having a working Shopping Cart feature as well as a favorite button.
 
-### `npm start`
+## Project Goals
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+My primary goals with this demo project are:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Demonstrate Understanding**: Showcase my understanding of Algolia's basic features and how they can be integrated into a React application.
+2. **Provide Practical Examples**: Offer practical examples of how Algolia's features can enhance the search and discovery experience within an application.
+3. **Showcase Coding Proficiency**: Highlight my coding proficiency in React and ability to integrate with third-party tools.
+4. **Receive Feedback**: Seek feedback from the Algolia team on the implementation, usability, and potential improvements of the demo project.
 
-### `npm test`
+## Installation and Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this demo project locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/your-username/algolia-demo.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    cd ndd-algolia-demo/
 
-### `npm run eject`
+3. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the development server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Open http://localhost:3000 to view on your browser
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Feedback
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I really enjoyed the open-ended nature of this project, since it allowed me to see Algolia's features first-hand from the perspective of a potential integrator. It was very enjoyable to work on this and most of the Algolia features were easy and painless to implement through the InstantSearch library. The only negative part I experienced was working with the dataset, as it was hard to pick out a dataset that would work fully for all the features I wanted to implement. For example, in the eCommerce dataset I used, two pricing attributes existed (salePrice and price) that would make implementing the range slider more difficult without modifying the dataset. Another example would be the lack of images and image sizing for some items in the index lead to a less-than-desirable display for the user due to needing to resize images.
