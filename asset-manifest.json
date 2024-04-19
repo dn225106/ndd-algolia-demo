@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ndd-algolia-demo/static/css/main.a631275e.css",
+    "main.js": "/ndd-algolia-demo/static/js/main.72f2357e.js",
+    "static/js/453.0fa5e997.chunk.js": "/ndd-algolia-demo/static/js/453.0fa5e997.chunk.js",
+    "static/media/no-results.png": "/ndd-algolia-demo/static/media/no-results.e7046f82518d509db15c.png",
+    "static/media/commerce-logo.png": "/ndd-algolia-demo/static/media/commerce-logo.31abaf2af5ae59325a04.png",
+    "index.html": "/ndd-algolia-demo/index.html",
+    "main.a631275e.css.map": "/ndd-algolia-demo/static/css/main.a631275e.css.map",
+    "main.72f2357e.js.map": "/ndd-algolia-demo/static/js/main.72f2357e.js.map",
+    "453.0fa5e997.chunk.js.map": "/ndd-algolia-demo/static/js/453.0fa5e997.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a631275e.css",
+    "static/js/main.72f2357e.js"
+  ]
+}
