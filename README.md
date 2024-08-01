@@ -1,4 +1,6 @@
-# Algolia Search UI Demo Project
+# THIS PROJECT NO LONGER WORKS. THE DATABASE WAS WIPED AND NEEDS TO BE RE-IMPLEMENTED.
+
+# Algolia Search UI Project
 
 This React application serves as a demo project to showcase my understanding of Algolia's features. The project aims to demonstrate how Algolia can be integrated into a React application to provide efficient search and filtering functionalities in an eCommerce setting. I wanted to implement as many widgets and capabilities as possible available through Algolia InstantSearch to demonstrate understanding of Algolia technology from the perspective of a client or integrator.
 
@@ -51,4 +53,4 @@ To run this demo project locally, follow these steps:
 
 ## Project Feedback
 
-I really enjoyed the open-ended nature of this project, since it allowed me to see Algolia's features first-hand from the perspective of a potential integrator. It was very enjoyable to work on this project, and most of the Algolia features were easy and painless to implement through the InstantSearch library. The only negative part I experienced was working with the dataset, as it was hard to pick out a dataset that would work fully for all the features I wanted to implement. For example, in the eCommerce dataset I used, two pricing attributes existed (salePrice and price) that would make implementing the range slider more difficult without modifying the dataset. Another example would be the lack of images and image sizing for some items in the index led to a less-than-desirable display for the user due to image resizing.
+Needs updating because the original database was most likely wiped. Could re-implement features, given that you enter a valid Algolia database.
